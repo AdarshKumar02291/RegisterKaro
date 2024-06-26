@@ -9,7 +9,7 @@ module.exports = {
     production: {
       key: "key.pem",
       user: "ubuntu",
-      host: "51.21.128.252",
+      host: "51.20.108.206",
       ref: "origin/main",
       repo: "https://github.com/dev-1ce/RegisterKaro.git",
       path: "/home/ubuntu",
