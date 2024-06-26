@@ -14,7 +14,7 @@ import Numbers from "./_components/Numbers";
 
 export default function Home() {
   return (
-    <div className="max-w-[1540px]">
+    <div className="max-w-[1540px] overflow-x-hidden">
       <Header />
       <Hero />
       <Services />
