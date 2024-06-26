@@ -12,7 +12,7 @@ module.exports = {
       host: "51.21.128.252",
       ref: "origin/main",
       repo: "https://github.com/dev-1ce/RegisterKaro.git",
-      path: "DESTINATION_PATH",
+      path: "/home/ubuntu",
       "pre-deploy-local": "",
       "post-deploy":
         "source ~/.nvm/nvm.sh && npm install && npm run build && pm2 reload ecosystem.config.js --env production",
